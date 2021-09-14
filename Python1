@@ -1,4 +1,4 @@
-import sys #könytár szükséges a sys.float_info.dig
+#import sys #könytár szükséges a sys.float_info.dig
 x=5
 print (type(x))
 s="123" 
@@ -23,7 +23,7 @@ print (a5)
 print (a4)
 #print (a1+a5) #hiba
 print (a2+a4)
-sys.float_info.dig
+#sys.float_info.dig
 print(a1+int(a5)) #számmá alakul az a5, csak itt
 print(type(a5)) #egyébként marad string
 
