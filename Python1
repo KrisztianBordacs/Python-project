@@ -33,6 +33,28 @@ print(type(s1+s2))
 print(type(int(s1+s2))) #tipuskonverzio
 
 print("alma"+"*"+"körte") #stringek összefüzése
-print (s2*1000)
-print("alma"*500)
+#print (s2*1000)
+#print("alma"*500)
+print('a', 'b','c', 'da\'sda"as"sd--e')
+print("a","b","c","deas'aaa'asd")
+print("a","b","c","de", sep="")
+print("ab","b","c","de", sep="***")
+print("x\ry")
+print("x\ty")
+print("x\ny")
+print("x\ay")
+print("x\fy")
+print("x\vy")
+print("x\by")
+print("Ez kerüljön", end=" ")
+print("egy sorba")
+print ("range(6):   \t" , end="")
+#0 1 2 3 4 5
+for x in range(6):
+    print("%4d" % x, end="")
+    
+print("\nrange(3, 9):   \t", end="")
+#3 4 5 6 7 8
+for x in range(3, 9):
+    print("%4d" % x, end="")
 
