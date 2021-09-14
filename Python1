@@ -1,3 +1,4 @@
+import sys #könytár szükséges a sys.float_info.dig
 x=5
 print (type(x))
 s="123" 
@@ -22,3 +23,4 @@ print (a5)
 print (a4)
 #print (a1+a5) #hiba
 print (a2+a4)
+sys.float_info.dig
