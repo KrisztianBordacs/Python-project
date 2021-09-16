@@ -68,3 +68,26 @@ print("\nrange(14, 3, -2):\t", end="")
 for x in range(14, 3, -2):
     print("%4d" % x, end="")
 print("\n")
+print("\narray (tömb):\t", end="")
+primes = [2, 3, 5, 7] #ez egy tömb, késöbb erről bővebben
+for prime in primes:
+    print("%4d" % prime, end="")
+
+print("\nwhile:\t\t", end="")
+# 0 1 2 3 4
+i = 0
+while i < 5:
+    print("%4d" % i, end="")
+    i += 1
+print("\n")
+x=1
+for i in range(1,10):
+    x=x+(i+1)
+print(x)
+
+x=1
+i=1
+while i<10:
+    x=x+(i+1)
+    i+=1
+print(x)
