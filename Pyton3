@@ -1,0 +1,33 @@
+a=int(input("Adja meg az első számot "))
+b=int(input("Adja meg a második számot "))
+c=input("Add meg milyen műveletett szeretnél (1 összeadás, 2 kivonás, 3 szorzás, 4 osztás) ")
+
+if c=='1':
+    print(a+b)
+    
+elif c=='2':
+    print(a-b)
+    
+elif c=='3':
+    print(a*b)
+    
+elif c=='4':
+    print(a/b)
+elif c!='1' or c!='2' or c!="3" or c!='4':
+    print("Rossz művelet! Kilép")
+
+a=int(input("Adja meg az első számot ")) 
+b=int(input("Adja meg a második számot "))
+opcio=input("Add meg milyen műveletett szeretnél(1 összeadás, 2 kivonás, 3 szorzás, 4 osztás) ")
+
+    match opcio #innentől nem jó
+        case "1":
+           print(a+b)
+        case "2":
+            print(a-b)
+        case "3":
+            print(a*b)
+        case "4":
+            print(a/b)
+        case _:
+            print("Rossz művelet! Kilép")
