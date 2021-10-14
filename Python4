@@ -1,0 +1,16 @@
+import random
+
+num = random.randint(1, 100)
+guess = None
+
+guess=int(input("Tippelj egy számot 1 és 100 között "))
+
+while guess != num:
+    
+    if guess  < num:
+        print("A szám nagyobb")
+        guess=int(input("Tippelj újra! "))
+    else:
+        print("A szám kisebb")
+        guess=int(input("Tippelj újra!! "))
+print("Eltaláltad!!!!!!")
